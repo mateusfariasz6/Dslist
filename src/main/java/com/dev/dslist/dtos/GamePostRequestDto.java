@@ -14,7 +14,6 @@ public record GamePostRequestDto(
         @NotBlank
         String platforms,
         Double score,
-        @NotBlank
         String imgUrl,
         String description) {
 
